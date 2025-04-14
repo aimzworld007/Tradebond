@@ -51,8 +51,8 @@
 
 ## ❤️ Credits
 
-- Designed by **[aimzworld007](https://github.com/aimzworld007)**
-- Made with Love by **ChatGPT**
+- Designed by **[aimzworld007](https://fb.com/aimzworld007)**
+- Made with Love & Support by **AI**
 
 ---
 
