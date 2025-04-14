@@ -2,91 +2,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Tradebond — Digital Trading Assistant</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: 'Segoe UI', sans-serif;
-            background: #f4f7fa;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #0a2540;
-            color: white;
-            padding: 40px 20px;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 3em;
-        }
-        header p {
-            font-size: 1.2em;
-        }
-        section {
-            padding: 40px 20px;
-            max-width: 900px;
-            margin: auto;
-        }
-        h2 {
-            color: #0a2540;
-            margin-top: 0;
-        }
-        ul {
-            line-height: 1.8;
-        }
-        .cta {
-            text-align: center;
-            margin-top: 40px;
-        }
-        .cta a {
-            background-color: #0a2540;
-            color: white;
-            padding: 12px 25px;
-            text-decoration: none;
-            border-radius: 8px;
-            font-weight: bold;
-        }
-        footer {
-            background-color: #0a2540;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            font-size: 0.9em;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tradebond - Digital Trading Assistant</title>
+  <meta name="description" content="Tradebond is your all-in-one Digital Trading Assistant for crypto, commodities, forex with AI-based signals and real-time analysis." />
+  <meta name="keywords" content="Tradebond, trading app, crypto, commodities, forex, AI trading, digital assistant" />
+  <meta name="author" content="Aimzworld007 and ChatGPT" />
+  <link rel="icon" href="https://raw.githubusercontent.com/aimzworld007/Tradebond/main/assets/favicon.png" type="image/png">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #f1f5f9;
+      text-align: center;
+      padding: 2rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+    nav a {
+      color: #f1f5f9;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #38bdf8;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .button {
+      background: #3b82f6;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .screenshots {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 3rem;
+    }
+    .screenshots img {
+      max-width: 300px;
+      border-radius: 1rem;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    .footer {
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      color: #94a3b8;
+    }
+    .features {
+      margin-top: 4rem;
+      text-align: left;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .features h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    .features ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .features li {
+      margin-bottom: 1rem;
+      background: #1e293b;
+      padding: 1rem;
+      border-radius: 0.75rem;
+      box-shadow: 0 0 5px rgba(255, 255, 255, 0.05);
+    }
+    .instructions {
+      margin-top: 3rem;
+      font-size: 1rem;
+      color: #cbd5e1;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      background: #1e293b;
+      padding: 1.5rem;
+      border-radius: 0.75rem;
+    }
+  </style>
 </head>
 <body>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#features">Features</a>
+    <a href="#download">Download</a>
+    <a href="mailto:aimctgbd@gmail.com">Contact</a>
+  </nav>
 
-<header>
-    <h1>Tradebond</h1>
-    <p>Digital Trading Assistant — Powered by AI</p>
-</header>
+  <h1>Welcome to Tradebond</h1>
+  <p>Digital Trading Assistant for Crypto, Commodities & More</p>
+  <a id="download" href="https://drive.google.com/file/d/1mcKLn60CVbiZZI6PfLDdcUkbfBePtRzj/view?usp=sharing" class="button">Download APK</a>
 
-<section>
-    <h2>Features</h2>
+  <div class="screenshots">
+    <img src="https://raw.githubusercontent.com/aimzworld007/Tradebond/main/assets/screen1.png" alt="Tradebond Screenshot 1">
+    <img src="https://raw.githubusercontent.com/aimzworld007/Tradebond/main/assets/screen2.png" alt="Tradebond Screenshot 2">
+  </div>
+
+  <div id="features" class="features">
+    <h2>App Features</h2>
     <ul>
-        <li>Live Market Price Updates (Crypto & Commodities)</li>
-        <li>Auto Buy/Sell Signal Generator with TP/SL</li>
-        <li>Custom Watchlist with Notifications</li>
-        <li>Technical Indicators like RSI, EMA, Candle Patterns</li>
-        <li>Multi-language Support: Bangla & English</li>
-        <li>Market News Feed & Simplified Analysis (via ChatGPT)</li>
-        <li>Import System for Text & Token Analysis</li>
-        <li>Trade Widgets & Scrolling Notification Bar</li>
-        <li>Version: v1.0 (All Features Free in Personal Use)</li>
+      <li>✅ Real-time trading signals for Crypto, Commodities, and Forex</li>
+      <li>✅ Language selection (বাংলা / English) at first launch</li>
+      <li>✅ TP, SL, Entry/Exit points with AI-generated analysis</li>
+      <li>✅ Interactive Candlestick & Indicator Charts</li>
+      <li>✅ Watchlist with mobile & in-app notifications</li>
+      <li>✅ Import text for market summary using ChatGPT</li>
+      <li>✅ Free & Premium analysis mode (All features free for now)</li>
+      <li>✅ Live price ticker on mobile notification bar</li>
+      <li>✅ Widget support in multiple sizes</li>
+      <li>✅ GitHub auto-update system</li>
+      <li>✅ Designed for future Play Store & Apple Store deployment</li>
+      <li>✅ Separate sections for Crypto & Commodities</li>
+      <li>✅ Any token analysis supported using Binance API</li>
+      <li>✅ ChatGPT-based auto-analysis system with timing and SL/TP</li>
+      <li>✅ Landing page and auto-update from GitHub releases</li>
     </ul>
-    <div class="cta">
-        <a href="#">Coming Soon: Download APK</a>
-    </div>
-</section>
+  </div>
 
-<footer>
-    Designed by aimzworld007 · Made with ❤️ by ChatGPT
-</footer>
+  <div class="instructions">
+    <h3>How to Use Tradebond</h3>
+    <p>After downloading, open the app and choose your preferred language. You can add trading symbols to your Watchlist, get real-time alerts, and even ask ChatGPT for AI-powered analysis. The app will auto-update from GitHub, so stay tuned for the latest features.</p>
+  </div>
 
+  <div class="footer">
+    <p>Designed by Aimzworld007 • Made with ❤️ by ChatGPT</p>
+    <p>Slogan: Digital Trading Assistant</p>
+    <p>Version: 1.1.0 • More features coming soon...</p>
+  </div>
 </body>
 </html>
