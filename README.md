@@ -1,5 +1,4 @@
-<img src https://github.com/aimzworld007/Tradebond/blob/main/app%20icon.png/>
-
+<img src="https://raw.githubusercontent.com/aimzworld007/Tradebond/main/app%20icon.png" alt="Tradebond App Icon" width="200"/>
 
 # Tradebond — Digital Trading Assistant 📈🤖
 
