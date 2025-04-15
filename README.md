@@ -1,3 +1,5 @@
+<img src https://github.com/aimzworld007/Tradebond/blob/main/app%20icon.png/>
+
 
 # Tradebond — Digital Trading Assistant 📈🤖
 
